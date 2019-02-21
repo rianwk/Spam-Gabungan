@@ -34,11 +34,11 @@ if(function_exists('pcntl_signal')) {
 		global $Y,$X;
 		switch($signal) {
 		case SIGTERM:
-		die($G."\n====================[] Z3Y.ID []=======(√√√)>".$X."\n");
+		die($G."\n====================[] RIANWK []=======(√√√)>".$X."\n");
 		case SIGKILL:
-		die($R."\n====================[] Z3Y.ID []=======(√√)>".$X."\n");
+		die($R."\n====================[] RIANWK []=======(√√)>".$X."\n");
 		case SIGINT:
-		die($G."\n====================[] Z3Y.ID []=======(√)>".$X."\n");
+		die($G."\n====================[] RIANWK []=======(√)>".$X."\n");
 		}
 	}
 	pcntl_signal(SIGTERM, "signal_handler");
@@ -57,7 +57,7 @@ function post_data($url,$data) {
 	}
 	echo $GG.
 "
-Z3Y.ID SPAMER
+WELLCOME TO SPAMMER
 ";
 
 if(is_numeric($argv[1])) {
